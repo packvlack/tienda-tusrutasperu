@@ -1,0 +1,253 @@
+/* ============================================================
+   TUS RUTAS PERÚ · TIENDA — CAZAOFFERTAS
+   Brutalismo heredado de la app TUSRUTASPERU.
+   "EL CONCRETO NO PIDE PERMISO"
+   ============================================================ */
+
+:root {
+  --ink: #0a0a0a;
+  --paper: #f2efe6;
+  --paper-dim: #e4e0d2;
+  --acid: #d8ff00;
+  --blood: #ff2b1f;
+  --sky: #2b6cff;
+  --concrete: #8a877c;
+  --white: #ffffff;
+
+  --border: 4px solid var(--ink);
+  --border-thin: 2px solid var(--ink);
+  --shadow: 8px 8px 0 var(--ink);
+  --shadow-sm: 4px 4px 0 var(--ink);
+  --shadow-lg: 14px 14px 0 var(--ink);
+
+  --font-display: 'Archivo Black', 'Arial Black', system-ui, sans-serif;
+  --font-body: 'Space Grotesk', 'Helvetica Neue', system-ui, sans-serif;
+  --font-mono: 'Space Mono', 'Courier New', monospace;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; background: var(--paper); }
+
+body {
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  overflow-x: hidden;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* textura de ruido */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9998;
+  opacity: .07;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 250 250' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%2C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+::selection { background: var(--acid); color: var(--ink); }
+
+h1, h2, h3, .display {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  line-height: .92;
+  letter-spacing: -.01em;
+}
+.display-xl { font-size: clamp(3rem, 11vw, 9rem); }
+.display-md { font-size: clamp(1.8rem, 4.5vw, 3.2rem); }
+.mono { font-family: var(--font-mono); }
+.tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: .72rem;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  border: var(--border-thin);
+  padding: .3em .8em;
+  background: var(--white);
+  color: var(--ink);
+}
+.lead { font-size: clamp(1.05rem, 2vw, 1.35rem); font-weight: 500; max-width: 62ch; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 1.2rem; }
+
+/* ---------- HEADER ---------- */
+.site-header {
+  position: sticky;
+  top: 0; z-index: 1000;
+  background: var(--paper);
+  border-bottom: var(--border);
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  min-height: 68px;
+}
+.brand {
+  display: flex; align-items: center; gap: .6rem;
+  padding: 0 1.2rem;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  text-decoration: none; color: var(--ink);
+  border-right: var(--border);
+  background: var(--acid);
+}
+.brand:hover { background: var(--ink); color: var(--acid); }
+.site-nav { display: flex; align-items: center; gap: 1.2rem; padding: 0 1.2rem; }
+.site-nav a {
+  font-family: var(--font-mono); font-size: .8rem; text-transform: uppercase;
+  letter-spacing: .1em; color: var(--ink); text-decoration: none;
+  border-bottom: 3px solid transparent;
+}
+.site-nav a:hover { border-bottom-color: var(--blood); }
+
+/* ---------- HERO ---------- */
+.hero {
+  border-bottom: var(--border);
+  background: var(--ink);
+  color: var(--paper);
+  padding: clamp(3rem, 8vw, 6rem) 0;
+  position: relative;
+  overflow: hidden;
+}
+.hero .kicker {
+  display: inline-block;
+  background: var(--blood); color: var(--white);
+  font-family: var(--font-mono); font-size: .8rem; letter-spacing: .15em;
+  text-transform: uppercase; padding: .4em 1em; margin-bottom: 1.2rem;
+  border: 3px solid var(--paper);
+}
+.hero h1 .hl { color: var(--acid); }
+.hero .lead { color: var(--paper-dim); margin-top: 1.2rem; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: .7rem; margin-top: 1.6rem; }
+.hero-meta .tag { background: var(--paper); }
+
+/* ---------- CHIPS ---------- */
+.filters {
+  border-bottom: var(--border);
+  background: var(--paper-dim);
+  padding: 1rem 0;
+  position: sticky;
+  top: 68px; z-index: 900;
+}
+.chips { display: flex; flex-wrap: wrap; gap: .6rem; }
+.chip {
+  font-family: var(--font-mono); font-size: .78rem; text-transform: uppercase;
+  letter-spacing: .08em;
+  border: var(--border-thin); background: var(--white); color: var(--ink);
+  padding: .55em 1.1em; cursor: pointer;
+  box-shadow: 3px 3px 0 var(--ink);
+  transition: transform .1s;
+}
+.chip:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--ink); }
+.chip.active { background: var(--ink); color: var(--acid); }
+
+/* ---------- GRID / CARDS ---------- */
+.deals-section { padding: 2.5rem 0 4rem; }
+.deals-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  flex-wrap: wrap; gap: .6rem; margin-bottom: 1.6rem;
+}
+.deals-count { font-family: var(--font-mono); font-size: .85rem; color: var(--concrete); }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.6rem;
+}
+.card {
+  background: var(--white);
+  border: var(--border);
+  box-shadow: var(--shadow-sm);
+  display: flex; flex-direction: column;
+  transition: transform .12s, box-shadow .12s;
+}
+.card:hover { transform: translate(-3px, -3px); box-shadow: var(--shadow); }
+.card-img {
+  border-bottom: var(--border);
+  background: var(--paper);
+  aspect-ratio: 1 / 1;
+  display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+.card-img img { width: 100%; height: 100%; object-fit: contain; padding: .8rem; }
+.card-img .noimg {
+  font-family: var(--font-display); font-size: 1rem; text-align: center;
+  padding: 1rem; color: var(--concrete); text-transform: uppercase;
+}
+.card-off {
+  position: absolute; top: .7rem; right: .7rem;
+  background: var(--blood); color: var(--white);
+  font-family: var(--font-display); font-size: 1rem;
+  padding: .3em .6em; border: 3px solid var(--ink);
+  transform: rotate(4deg);
+}
+.card-body { padding: 1.1rem 1.1rem 1.3rem; display: flex; flex-direction: column; gap: .55rem; flex: 1; }
+.card-name {
+  font-weight: 700; font-size: 1.02rem; line-height: 1.3;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.card-prices { display: flex; align-items: baseline; gap: .7rem; flex-wrap: wrap; margin-top: auto; }
+.price {
+  font-family: var(--font-display); font-size: 1.9rem; color: var(--ink);
+}
+.price-before {
+  font-family: var(--font-mono); font-size: .95rem; color: var(--concrete);
+  text-decoration: line-through;
+}
+.card-cta {
+  display: block; text-align: center;
+  background: var(--acid); color: var(--ink);
+  border: var(--border-thin);
+  font-family: var(--font-display); font-size: 1rem; text-transform: uppercase;
+  padding: .85em 1em; text-decoration: none;
+  box-shadow: 4px 4px 0 var(--ink);
+  margin-top: .4rem;
+}
+.card-cta:hover { background: var(--ink); color: var(--acid); }
+.card-cta:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--ink); }
+.card-meta { font-family: var(--font-mono); font-size: .7rem; color: var(--concrete); }
+
+.empty {
+  border: var(--border); background: var(--white); box-shadow: var(--shadow-sm);
+  padding: 2.5rem; text-align: center; font-family: var(--font-mono);
+}
+
+/* ---------- BANNER APP ---------- */
+.app-banner {
+  border-top: var(--border);
+  background: var(--acid);
+  padding: 2.5rem 0;
+}
+.app-banner .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 1.5rem; justify-content: space-between; }
+.btn-dark {
+  display: inline-block; background: var(--ink); color: var(--acid);
+  border: var(--border-thin); font-family: var(--font-display); text-transform: uppercase;
+  padding: .9em 1.6em; text-decoration: none; box-shadow: 4px 4px 0 rgba(0,0,0,.35);
+}
+.btn-dark:hover { background: var(--blood); color: var(--white); }
+
+/* ---------- FOOTER ---------- */
+.site-footer {
+  border-top: var(--border);
+  background: var(--ink); color: var(--paper);
+  padding: 2.5rem 0;
+}
+.disclosure {
+  border: 3px solid var(--acid);
+  padding: 1.2rem 1.4rem;
+  font-size: .95rem; margin-bottom: 1.4rem;
+  background: rgba(216,255,0,.06);
+}
+.disclosure strong { color: var(--acid); }
+.foot-note { font-family: var(--font-mono); font-size: .78rem; color: var(--concrete); margin-bottom: .4rem; }
+.foot-brand { font-family: var(--font-display); margin-top: 1.2rem; }
+
+@media (max-width: 640px) {
+  .site-nav { display: none; }
+  .filters { top: 68px; }
+}
