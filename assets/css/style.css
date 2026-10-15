@@ -247,6 +247,15 @@ h1, h2, h3, .display {
 .foot-note { font-family: var(--font-mono); font-size: .78rem; color: var(--concrete); margin-bottom: .4rem; }
 .foot-brand { font-family: var(--font-display); margin-top: 1.2rem; }
 
+/* ---------- SHIPPING STRIP ---------- */
+.ship-strip {
+  background: var(--sky);
+  color: var(--white);
+  border-bottom: var(--border);
+  padding: .7rem 0;
+  font-size: .85rem;
+}
+
 @media (max-width: 640px) {
   .site-nav { display: none; }
   .filters { top: 68px; }
