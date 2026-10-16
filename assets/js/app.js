@@ -30,6 +30,34 @@
     return Math.round((1 - now / before) * 100);
   }
 
+  function histStats(p) {
+    var h = p.historial || [];
+    var nums = [];
+    h.forEach(function(e){ var n = num(e.precio); if (n != null) nums.push(n); });
+    if (!nums.length) return null;
+    var min = Math.min.apply(null, nums);
+    var sum = nums.reduce(function(a,b){ return a + b; }, 0);
+    return { min: min, avg: sum / nums.length, n: nums.length };
+  }
+
+  function histLine(p) {
+    var st = histStats(p);
+    if (!st) return "";
+    var now = num(p.precio);
+    var hot = (st.n >= 2 && now != null && now <= st.min) ? ' <strong class="hot">🔥 MÍNIMO HISTÓRICO</strong>' : "";
+    return '<div class="hist-stats mono">Mín $' + st.min.toFixed(2) + ' · Prom $' + st.avg.toFixed(2) + hot + '</div>';
+  }
+
+  function histTable(p) {
+    var h = p.historial || [];
+    if (!h.length) return "";
+    var rows = h.slice().reverse().map(function(e){
+      return '<tr><td>' + esc(e.fecha) + '</td><td>$' + Number(e.precio).toFixed(2) + '</td></tr>';
+    }).join("");
+    return '<details class="hist"><summary>Historial de precios (' + h.length + ')</summary>' +
+      '<table><thead><tr><th>Fecha</th><th>Precio</th></tr></thead><tbody>' + rows + '</tbody></table></details>';
+  }
+
   function card(p) {
     var off = discountPct(p);
     var img = p.imagen
@@ -38,6 +66,7 @@
     return '<article class="card">' +
       '<div class="card-img">' + img +
       (off ? '<span class="card-off">−' + off + '%</span>' : '') +
+      (p.envio_peru_gratis ? '<span class="card-ship">✈ Envío gratis a Perú</span>' : '') +
       '</div>' +
       '<div class="card-body">' +
       '<span class="tag">' + esc(p.categoria) + '</span>' +
@@ -46,6 +75,8 @@
       '<span class="price">' + esc(p.precio) + '</span>' +
       (p.precio_antes ? '<span class="price-before">' + esc(p.precio_antes) + '</span>' : '') +
       '</div>' +
+      histLine(p) +
+      histTable(p) +
       '<a class="card-cta" href="' + affLink(p.asin) + '" target="_blank" rel="nofollow sponsored noopener">🔥 Ver oferta en Amazon</a>' +
       '<span class="card-meta">Verificado ' + esc(p.fecha_verificado || "") + ' · ASIN ' + esc(p.asin) + '</span>' +
       '</div></article>';
