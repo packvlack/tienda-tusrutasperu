@@ -1,17 +1,17 @@
 [
   {
-    "asin": "B01IJKYZ1C",
+    "asin": "B0D5R6F1Z3",
     "categoria": "Mochilas",
     "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/811Io0hWr-L._AC_US1000_.jpg",
-    "nombre": "Osprey Packs Talon 22 Men's Hiking Backpack",
-    "notas": "ASIN verificado abriendo https://www.amazon.com/dp/B01IJKYZ1C (titulo coincide). Precio Amazon no visible en extraccion de texto; $175.00 es referencia retail actual (thruwaysportinggoods.com, 15/10/2026). Verificar precio en Amazon antes de publicar.",
-    "precio": "$175.00",
+    "imagen": "https://pimcore.deuter.com/deuter/mediaroom/product-images/backpacks/hiking-backpacks/353780/image-thumb__353780__deuter_product-img/3410225-7000-SpeedLite21_black-D-09.png",
+    "nombre": "Deuter Speed Lite 21 Lightweight Hiking Backpack (21L)",
+    "notas": "Verificado por Paco en su navegador el 2026-10-15: US$79.95 con botón 'Agregar al carrito' (solo 2 en stock). Envío GRATIS a Perú sin cargos de importación (entrega 26 oct). Enviado por Amazon, vendido por Campman. Reemplaza a Osprey Talon 22 (B01IJKYZ1C), sin oferta disponible.",
+    "precio": "$79.95",
     "precio_antes": null,
     "historial": [
       {
         "fecha": "2026-10-15",
-        "precio": 175.0
+        "precio": 79.95
       }
     ]
   },
