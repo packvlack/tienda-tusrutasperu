@@ -191,5 +191,38 @@
         "precio": 39.0
       }
     ]
+  },
+  {
+    "asin": "B09JXQDZG5",
+    "categoria": "Mochilas",
+    "fecha_verificado": "2026-10-16",
+    "imagen": "https://www.osprey.com/gb/media/catalog/product/a/t/atmosag65_s22_side_mythicalgreen.jpg",
+    "nombre": "Osprey Atmos AG 65L Mochila de mochilero",
+    "notas": "Verificado por Paco el 2026-10-16: US$306.99 (-17% del precio recomendado US$370.00), botón 'Agregar al carrito' disponible (solo 2 en stock). Llega a Perú con US$179.74 de cargos de envío e importación (no es envío gratis). Enviado por Amazon, vendido por STC Distributors.",
+    "precio": "$306.99",
+    "precio_antes": "$370.00",
+    "historial": [
+      {
+        "fecha": "2026-10-16",
+        "precio": 306.99
+      }
+    ]
+  },
+  {
+    "asin": "B005I6R0WC",
+    "categoria": "Descanso",
+    "fecha_verificado": "2026-10-16",
+    "imagen": "https://www.gearhungry.com/wp-content/uploads/2022/01/therm-a-rest-z-lite-sol-sleeping-pad.jpg",
+    "nombre": "Therm-a-Rest Z Lite Sol Colchoneta para dormir (Regular)",
+    "notas": "Verificado por Paco el 2026-10-16: US$57.37, 'Agregar al carrito' disponible. Sin cargos de importación y envío GRATIS a Perú (entrega 27 oct). Enviado por Amazon, vendido por Amazon Export Sales LLC. 'Opción Amazon', 300+ comprados el mes pasado.",
+    "precio": "$57.37",
+    "precio_antes": null,
+    "envio_peru_gratis": true,
+    "historial": [
+      {
+        "fecha": "2026-10-16",
+        "precio": 57.37
+      }
+    ]
   }
 ]
