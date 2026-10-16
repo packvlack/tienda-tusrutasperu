@@ -40,12 +40,45 @@
     return { min: min, avg: sum / nums.length, n: nums.length };
   }
 
-  function histLine(p) {
+  function dealVerdict(p, st) {
+    if (!st || st.n < 2) return "";
+    var now = num(p.precio);
+    if (now == null) return "";
+    if (now <= st.min) return ' <strong class="hot">🔥 MÍNIMO HISTÓRICO</strong>';
+    if (now <= st.avg * 0.9) return ' <strong class="good">✓ BUEN PRECIO</strong>';
+    if (now >= st.avg * 1.1) return ' <span class="wait">⏳ ALTO · CONVIENE ESPERAR</span>';
+    return "";
+  }
+
+  function isDeal(p) {
+    var v = dealVerdict(p, histStats(p));
+    return v.indexOf("hot") !== -1 || v.indexOf("good") !== -1;
+  }
+
+  function sparkline(p) {
+    var h = p.historial || [];
+    if (h.length < 2) return "";
+    var vals = h.map(function(e){ return Number(e.precio); });
+    var min = Math.min.apply(null, vals), max = Math.max.apply(null, vals);
+    var w = 110, hgt = 34, pad = 4;
+    var trend = vals[vals.length - 1] <= vals[0] ? "down" : "up";
+    var pts = vals.map(function(v, i){
+      var x = pad + (w - pad * 2) * (vals.length === 1 ? 0.5 : i / (vals.length - 1));
+      var y = (max === min) ? hgt / 2 : hgt - pad - (hgt - pad * 2) * (v - min) / (max - min);
+      return x.toFixed(1) + "," + y.toFixed(1);
+    });
+    var last = pts[pts.length - 1].split(",");
+    return '<svg class="spark ' + trend + '" viewBox="0 0 ' + w + ' ' + hgt + '" aria-hidden="true">' +
+      '<polyline points="' + pts.join(" ") + '" fill="none" stroke="currentColor" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>' +
+      '<circle cx="' + last[0] + '" cy="' + last[1] + '" r="4.5" fill="currentColor"/></svg>';
+  }
+
+  function histBlock(p) {
     var st = histStats(p);
     if (!st) return "";
-    var now = num(p.precio);
-    var hot = (st.n >= 2 && now != null && now <= st.min) ? ' <strong class="hot">🔥 MÍNIMO HISTÓRICO</strong>' : "";
-    return '<div class="hist-stats mono">Mín $' + st.min.toFixed(2) + ' · Prom $' + st.avg.toFixed(2) + hot + '</div>';
+    return '<div class="hist-line">' + sparkline(p) +
+      '<div class="hist-stats mono">Mín $' + st.min.toFixed(2) + ' · Prom $' + st.avg.toFixed(2) + dealVerdict(p, st) + '</div></div>' +
+      histTable(p);
   }
 
   function histTable(p) {
@@ -75,8 +108,7 @@
       '<span class="price">' + esc(p.precio) + '</span>' +
       (p.precio_antes ? '<span class="price-before">' + esc(p.precio_antes) + '</span>' : '') +
       '</div>' +
-      histLine(p) +
-      histTable(p) +
+      histBlock(p) +
       '<a class="card-cta" href="' + affLink(p.asin) + '" target="_blank" rel="nofollow sponsored noopener">🔥 Ver oferta en Amazon</a>' +
       '<span class="card-meta">Verificado ' + esc(p.fecha_verificado || "") + ' · ASIN ' + esc(p.asin) + '</span>' +
       '</div></article>';
@@ -84,7 +116,7 @@
 
   function render(deals, cat) {
     var grid = document.getElementById("grid");
-    var list = cat === "Todas" ? deals : deals.filter(function (d) { return d.categoria === cat; });
+    var list = cat === "Todas" ? deals : (cat === "🔥 Ofertas" ? deals.filter(isDeal) : deals.filter(function (d) { return d.categoria === cat; }));
     if (!list.length) {
       grid.innerHTML = '<div class="empty">No hay ofertas en esta categoría por ahora. Vuelve pronto. ◈</div>';
     } else {
@@ -97,6 +129,7 @@
   function chips(deals, onPick) {
     var box = document.getElementById("chips");
     var cats = ["Todas"];
+    if (deals.some(isDeal)) cats.push("🔥 Ofertas");
     deals.forEach(function (d) { if (cats.indexOf(d.categoria) === -1) cats.push(d.categoria); });
     box.innerHTML = cats.map(function (c, i) {
       return '<button class="chip' + (i === 0 ? " active" : "") + '" data-cat="' + esc(c) + '">' + esc(c) + '</button>';
