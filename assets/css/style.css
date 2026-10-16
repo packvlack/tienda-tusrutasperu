@@ -279,6 +279,13 @@ h1, h2, h3, .display {
 .hist th, .hist td { border: 2px solid var(--ink); padding: .35em .6em; text-align: left; }
 .hist th { background: var(--ink); color: var(--acid); text-transform: uppercase; font-size: .68rem; letter-spacing: .08em; }
 
+.hist-line { display: flex; align-items: center; gap: .6rem; margin-top: .2rem; }
+.spark { width: 110px; height: 34px; flex: none; }
+.spark.down { color: #0a7a3d; }
+.spark.up { color: var(--blood); }
+.hist-stats .good { color: #0a7a3d; }
+.hist-stats .wait { color: var(--concrete); }
+
 @media (max-width: 640px) {
   .site-nav { display: none; }
   .filters { top: 68px; }
