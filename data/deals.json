@@ -1,264 +1,265 @@
 [
-  {
-    "asin": "B0D5R6F1Z3",
-    "categoria": "Mochilas",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://pimcore.deuter.com/deuter/mediaroom/product-images/backpacks/hiking-backpacks/353780/image-thumb__353780__deuter_product-img/3410225-7000-SpeedLite21_black-D-09.png",
-    "nombre": "Deuter Speed Lite 21 Lightweight Hiking Backpack (21L)",
-    "notas": "Verificado por Paco en su navegador el 2026-10-15: US$79.95 con botón 'Agregar al carrito' (solo 2 en stock). Envío GRATIS a Perú sin cargos de importación (entrega 26 oct). Enviado por Amazon, vendido por Campman. Reemplaza a Osprey Talon 22 (B01IJKYZ1C), sin oferta disponible.",
-    "precio": "$79.95",
-    "precio_antes": null,
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 79.95
-      }
-    ],
-    "envio_peru_gratis": true
-  },
-  {
-    "asin": "B07CZ1DFNP",
-    "categoria": "Calzado",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/71hT6XuDYQL._AC_US1000_.jpg",
-    "nombre": "Salomon Men's Speedcross 5 Trail Running Shoes",
-    "notas": "ASIN de URL real amazon.com/dp con titulo coincidente en resultados ('Salomon Men's Speedcross 5 Trail Running Shoes - Black/Black/Phantom - 10.5'); apertura directa devolvio 403. Precio $97.46 / lista $130.00 de snippet amazon.com. Revalidar en navegador antes de publicar.",
-    "precio": "$97.46",
-    "precio_antes": "$130.00",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 97.46
-      }
-    ]
-  },
-  {
-    "asin": "B07CC49R4C",
-    "categoria": "Bastones",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/81QwtjIP-jL.SS700.jpg",
-    "nombre": "TrailBuddy Trekking Poles – Lightweight 7075 Aluminum Hiking Poles",
-    "notas": "ASIN de URL real amazon.com/dp con titulo coincidente en resultados; apertura directa devolvio 403. Precio $44.99 consistente en 3 fuentes (crawl 1-4 dias). Revalidar en navegador antes de publicar.",
-    "precio": "$44.99",
-    "precio_antes": null,
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 44.99
-      }
-    ]
-  },
-  {
-    "asin": "B09NQK2581",
-    "categoria": "Iluminación",
-    "fecha_verificado": "2026-10-17",
-    "imagen": "https://m.media-amazon.com/images/I/611DF8SNggL._AC_SL1200_.jpg",
-    "nombre": "BLACK DIAMOND Spot 400 LED Headlamp",
-    "notas": "Reverificado el 2026-10-17 por apertura directa de https://www.amazon.com/dp/B09NQK2581: precio $46.39 en la caja de compra, 'In Stock' con botón 'Agregar al carrito'. Variante Graphite. Vendido por Black Diamond Equipment, enviado por Amazon.",
-    "precio": "$46.39",
-    "precio_antes": null,
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 46.39
-      },
-      {
-        "fecha": "2026-10-17",
-        "precio": 46.39
-      }
-    ]
-  },
-  {
-    "asin": "B0D7QHY574",
-    "categoria": "Carpas",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/71rnuuNX23L.SS700.jpg",
-    "nombre": "Coleman Sundome Camping Tent with Rainfly, 4 Person",
-    "notas": "ASIN de URLs amazon.com/dp en resultados con titulo coincidente ('Coleman Sundome Camping Tent with Rainfly, 4 Person/Navy Blue'). Precio $81 (antes $119) segun Field & Stream, ofertas Prime Day octubre 2026.",
-    "precio": "$81.00",
-    "precio_antes": "$119.00",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 81.0
-      }
-    ]
-  },
-  {
-    "asin": "B01N5O7551",
-    "categoria": "Cocina",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/81oUG0dmteL.SS700.jpg",
-    "nombre": "MSR PocketRocket 2 Ultralight Camping and Backpacking Stove",
-    "notas": "ASIN declarado en la seccion de informacion de producto de la pagina de Amazon del titulo coincidente. Precio Amazon $49.99 (antes $59.95), rastreado hace 16 horas.",
-    "precio": "$49.99",
-    "precio_antes": "$59.95",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 49.99
-      }
-    ]
-  },
-  {
-    "asin": "B00B1OSU4W",
-    "categoria": "Agua",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/71gFA-zIGML.SS700.jpg",
-    "nombre": "Sawyer Products SP129 Squeeze Water Filtration System",
-    "notas": "ASIN declarado en la pagina de Amazon del titulo 'Sawyer Products SP129 Squeeze Water Filtration System' (Part Number SP129). Precio Amazon $30.50 (antes $45.99), ofertas de 1-10 dias.",
-    "precio": "$30.50",
-    "precio_antes": "$45.99",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 30.5
-      }
-    ]
-  },
-  {
-    "asin": "B0BDXGJMGP",
-    "categoria": "Hidratación",
-    "fecha_verificado": "2026-10-15",
-    "imagen": "https://m.media-amazon.com/images/I/61zTVawWy7L.jpg",
-    "nombre": "CamelBak Eddy+ Water Bottle with Bite Valve Straw, 32oz",
-    "notas": "ASIN de URLs amazon.com/dp en resultados con titulo coincidente ('CamelBak Eddy+ Water Bottle with Bite Valve Straw, 32oz, Charcoal HOD'). Precio Amazon $13.99 (regular $17.00), hace 2 dias.",
-    "precio": "$13.99",
-    "precio_antes": "$17.00",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 13.99
-      }
-    ]
-  },
-  {
-    "asin": "B0814B6V66",
-    "nombre": "Columbia Men's Watertight II Jacket",
-    "categoria": "Ropa",
-    "precio": "$45.00",
-    "precio_antes": "$100.00",
-    "imagen": "https://m.media-amazon.com/images/I/6142UY8xXeS._AC_US1000_.jpg",
-    "fecha_verificado": "2026-10-15",
-    "notas": "ASIN de URL real amazon.com/dp/B0814B6V66 con titulo y detalles coincidentes en pagina cacheada de Amazon (Brand Columbia, Style 153389); apertura directa bloqueada (403). Precio $45 (antes $100) de snippet Men's Journal, crawl 2026-10-15. Revalidar en navegador antes de publicar.",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 45.0
-      }
-    ]
-  },
-  {
-    "asin": "B000XG34G8",
-    "nombre": "Darn Tough Vermont - Style 1403 - Men's Hiker Hike/Trek Sock",
-    "categoria": "Ropa",
-    "precio": "$27.95",
-    "precio_antes": null,
-    "imagen": "https://m.media-amazon.com/images/I/41i+gaat3TL._SL500_.jpg",
-    "fecha_verificado": "2026-10-15",
-    "notas": "ASIN de URL real amazon.com/dp/B000XG34G8 con titulo y detalles coincidentes en pagina cacheada de Amazon (Style 1403); apertura directa bloqueada (403). Precio Amazon no visible; $27.95 es MSRP del fabricante. Revalidar precio en navegador antes de publicar.",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 27.95
-      }
-    ]
-  },
-  {
-    "asin": "B005EPRFF4",
-    "nombre": "TETON Sports Celsius XXL, 0 Degree Sleeping Bag",
-    "categoria": "Descanso",
-    "precio": "$104.85",
-    "precio_antes": null,
-    "imagen": "https://m.media-amazon.com/images/I/41GrqDSXhGL._SL500_.jpg",
-    "fecha_verificado": "2026-10-15",
-    "notas": "ASIN de URL real amazon.com/dp/B005EPRFF4 con titulo coincidente en pagina cacheada de Amazon (UPC 855020001076); apertura directa bloqueada (403). Precio $104.85 de pagina cacheada de Amazon.com para este ASIN. Revalidar en navegador antes de publicar.",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 104.85
-      }
-    ]
-  },
-  {
-    "asin": "B0001P151W",
-    "nombre": "Victorinox Huntsman Swiss Army Knife, 15 Functions",
-    "categoria": "Accesorios",
-    "precio": "$39.00",
-    "precio_antes": "$52.00",
-    "imagen": "https://m.media-amazon.com/images/I/81Fy1KDo1ZL._AC_SL640_.jpg",
-    "fecha_verificado": "2026-10-15",
-    "notas": "Sin oferta disponible: el 2026-10-17 la página amazon.com/dp/B0001P151W mostró 'No featured offers available' en la caja de compra (título coincide: Victorinox Huntsman Swiss Army Knife 15 Functions). Precio $39 (antes $52) de snippet Men's Journal, crawl 2026-10-15. Sin reemplazo verificado en esta pasada.",
-    "historial": [
-      {
-        "fecha": "2026-10-15",
-        "precio": 39.0
-      }
-    ]
-  },
-  {
-    "asin": "B09JXQDZG5",
-    "categoria": "Mochilas",
-    "fecha_verificado": "2026-10-16",
-    "imagen": "https://www.osprey.com/gb/media/catalog/product/a/t/atmosag65_s22_side_mythicalgreen.jpg",
-    "nombre": "Osprey Atmos AG 65L Mochila de mochilero",
-    "notas": "Verificado por Paco el 2026-10-16: US$306.99 (-17% del precio recomendado US$370.00), botón 'Agregar al carrito' disponible (solo 2 en stock). Llega a Perú con US$179.74 de cargos de envío e importación (no es envío gratis). Enviado por Amazon, vendido por STC Distributors.",
-    "precio": "$306.99",
-    "precio_antes": "$370.00",
-    "historial": [
-      {
-        "fecha": "2026-10-16",
-        "precio": 306.99
-      }
-    ]
-  },
-  {
-    "asin": "B005I6R0WC",
-    "categoria": "Descanso",
-    "fecha_verificado": "2026-10-16",
-    "imagen": "https://www.gearhungry.com/wp-content/uploads/2022/01/therm-a-rest-z-lite-sol-sleeping-pad.jpg",
-    "nombre": "Therm-a-Rest Z Lite Sol Colchoneta para dormir (Regular)",
-    "notas": "Verificado por Paco el 2026-10-16: US$57.37, 'Agregar al carrito' disponible. Sin cargos de importación y envío GRATIS a Perú (entrega 27 oct). Enviado por Amazon, vendido por Amazon Export Sales LLC. 'Opción Amazon', 300+ comprados el mes pasado.",
-    "precio": "$57.37",
-    "precio_antes": null,
-    "envio_peru_gratis": true,
-    "historial": [
-      {
-        "fecha": "2026-10-16",
-        "precio": 57.37
-      }
-    ]
-  },
-  {
-    "asin": "B0DZBY6ZKM",
-    "categoria": "Electrónica",
-    "fecha_verificado": "2026-10-17",
-    "imagen": "https://m.media-amazon.com/images/I/81z-Puqy+mL.jpg",
-    "nombre": "BLAVOR Solar Power Bank 20000mAh 20W Fast Charging (4 cables integrados + linterna LED)",
-    "notas": "ASIN de URL real amazon.com/dp con título coincidente en listado de Amazon ('BLAVOR Solar Charger Power Bank 20000mAh Built in 4 Cables, 20W Fast Charging External Battery Pack with USB C, Camping Light, Flashlight, Wireless Charging Battery Bank for Apple Watches'). Precio $39.99 de listado Amazon. Apertura directa bloqueada (403). Revalidar precio en navegador antes de publicar.",
-    "precio": "$39.99",
-    "precio_antes": null,
-    "historial": [
-      {
-        "fecha": "2026-10-17",
-        "precio": 39.99
-      }
-    ]
-  },
-  {
-    "asin": "B01GZCUDE4",
-    "categoria": "Bolsas secas",
-    "fecha_verificado": "2026-10-17",
-    "imagen": "https://earthpak.com/cdn/shop/files/Main_Image_1_-_5L_9dc9a078-517a-41e2-97ba-ad80e4780d14.jpg?v=1717609504&width=1080",
-    "nombre": "Earth Pak Original Dry Bag 5L (500D PVC, incluye funda impermeable para celular)",
-    "notas": "ASIN de URL real amazon.com/dp con título coincidente ('Earth Pak Waterproof Dry Bag - Roll Top Waterproof Backpack Sack Keeps Gear Dry for Kayak with Waterproof Phone Case'). Precio desde ~$16.99 según vancharlioutdoor.com (guía 2026). Apertura directa bloqueada (403). Revalidar precio en navegador antes de publicar.",
-    "precio": "$16.99",
-    "precio_antes": null,
-    "historial": [
-      {
-        "fecha": "2026-10-17",
-        "precio": 16.99
-      }
-    ]
-  }
+ {
+  "asin": "B0D5R6F1Z3",
+  "categoria": "Mochilas",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://pimcore.deuter.com/deuter/mediaroom/product-images/backpacks/hiking-backpacks/353780/image-thumb__353780__deuter_product-img/3410225-7000-SpeedLite21_black-D-09.png",
+  "nombre": "Deuter Speed Lite 21 Lightweight Hiking Backpack (21L)",
+  "notas": "Verificado por Paco en su navegador el 2026-10-15: US$79.95 con botón 'Agregar al carrito' (solo 2 en stock). Envío GRATIS a Perú sin cargos de importación (entrega 26 oct). Enviado por Amazon, vendido por Campman. Reemplaza a Osprey Talon 22 (B01IJKYZ1C), sin oferta disponible.",
+  "precio": "$79.95",
+  "precio_antes": null,
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 79.95
+   }
+  ],
+  "envio_peru_gratis": true
+ },
+ {
+  "asin": "B07CZ1DFNP",
+  "categoria": "Calzado",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://m.media-amazon.com/images/I/71hT6XuDYQL._AC_US1000_.jpg",
+  "nombre": "Salomon Men's Speedcross 5 Trail Running Shoes",
+  "notas": "ASIN de URL real amazon.com/dp con titulo coincidente en resultados ('Salomon Men's Speedcross 5 Trail Running Shoes - Black/Black/Phantom - 10.5'); apertura directa devolvio 403. Precio $97.46 / lista $130.00 de snippet amazon.com. Revalidar en navegador antes de publicar.",
+  "precio": "$97.46",
+  "precio_antes": "$130.00",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 97.46
+   }
+  ]
+ },
+ {
+  "asin": "B07CC49R4C",
+  "categoria": "Bastones",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://m.media-amazon.com/images/I/81QwtjIP-jL.SS700.jpg",
+  "nombre": "TrailBuddy Trekking Poles – Lightweight 7075 Aluminum Hiking Poles",
+  "notas": "ASIN de URL real amazon.com/dp con titulo coincidente en resultados; apertura directa devolvio 403. Precio $44.99 consistente en 3 fuentes (crawl 1-4 dias). Revalidar en navegador antes de publicar.",
+  "precio": "$44.99",
+  "precio_antes": null,
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 44.99
+   }
+  ]
+ },
+ {
+  "asin": "B09NQK2581",
+  "categoria": "Iluminación",
+  "fecha_verificado": "2026-10-17",
+  "imagen": "https://m.media-amazon.com/images/I/611DF8SNggL._AC_SL1200_.jpg",
+  "nombre": "BLACK DIAMOND Spot 400 LED Headlamp",
+  "notas": "Reverificado el 2026-10-17 por apertura directa de https://www.amazon.com/dp/B09NQK2581: precio $46.39 en la caja de compra, 'In Stock' con botón 'Agregar al carrito'. Variante Graphite. Vendido por Black Diamond Equipment, enviado por Amazon.",
+  "precio": "$46.39",
+  "precio_antes": null,
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 46.39
+   },
+   {
+    "fecha": "2026-10-17",
+    "precio": 46.39
+   }
+  ]
+ },
+ {
+  "asin": "B0D7QHY574",
+  "categoria": "Carpas",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://m.media-amazon.com/images/I/71rnuuNX23L.SS700.jpg",
+  "nombre": "Coleman Sundome Camping Tent with Rainfly, 4 Person",
+  "notas": "ASIN de URLs amazon.com/dp en resultados con titulo coincidente ('Coleman Sundome Camping Tent with Rainfly, 4 Person/Navy Blue'). Precio $81 (antes $119) segun Field & Stream, ofertas Prime Day octubre 2026.",
+  "precio": "$81.00",
+  "precio_antes": "$119.00",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 81.0
+   }
+  ]
+ },
+ {
+  "asin": "B01N5O7551",
+  "categoria": "Cocina",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://m.media-amazon.com/images/I/81oUG0dmteL.SS700.jpg",
+  "nombre": "MSR PocketRocket 2 Ultralight Camping and Backpacking Stove",
+  "notas": "ASIN declarado en la seccion de informacion de producto de la pagina de Amazon del titulo coincidente. Precio Amazon $49.99 (antes $59.95), rastreado hace 16 horas.",
+  "precio": "$49.99",
+  "precio_antes": "$59.95",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 49.99
+   }
+  ]
+ },
+ {
+  "asin": "B00B1OSU4W",
+  "categoria": "Agua",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://m.media-amazon.com/images/I/71gFA-zIGML.SS700.jpg",
+  "nombre": "Sawyer Products SP129 Squeeze Water Filtration System",
+  "notas": "ASIN declarado en la pagina de Amazon del titulo 'Sawyer Products SP129 Squeeze Water Filtration System' (Part Number SP129). Precio Amazon $30.50 (antes $45.99), ofertas de 1-10 dias.",
+  "precio": "$30.50",
+  "precio_antes": "$45.99",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 30.5
+   }
+  ]
+ },
+ {
+  "asin": "B0BDXGJMGP",
+  "categoria": "Hidratación",
+  "fecha_verificado": "2026-10-15",
+  "imagen": "https://m.media-amazon.com/images/I/61zTVawWy7L.jpg",
+  "nombre": "CamelBak Eddy+ Water Bottle with Bite Valve Straw, 32oz",
+  "notas": "ASIN de URLs amazon.com/dp en resultados con titulo coincidente ('CamelBak Eddy+ Water Bottle with Bite Valve Straw, 32oz, Charcoal HOD'). Precio Amazon $13.99 (regular $17.00), hace 2 dias.",
+  "precio": "$13.99",
+  "precio_antes": "$17.00",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 13.99
+   }
+  ]
+ },
+ {
+  "asin": "B0814B6V66",
+  "nombre": "Columbia Men's Watertight II Jacket",
+  "categoria": "Ropa",
+  "precio": "$45.00",
+  "precio_antes": "$100.00",
+  "imagen": "https://m.media-amazon.com/images/I/6142UY8xXeS._AC_US1000_.jpg",
+  "fecha_verificado": "2026-10-15",
+  "notas": "ASIN de URL real amazon.com/dp/B0814B6V66 con titulo y detalles coincidentes en pagina cacheada de Amazon (Brand Columbia, Style 153389); apertura directa bloqueada (403). Precio $45 (antes $100) de snippet Men's Journal, crawl 2026-10-15. Revalidar en navegador antes de publicar.",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 45.0
+   }
+  ]
+ },
+ {
+  "asin": "B000XG34G8",
+  "nombre": "Darn Tough Vermont - Style 1403 - Men's Hiker Hike/Trek Sock",
+  "categoria": "Ropa",
+  "precio": "$27.95",
+  "precio_antes": null,
+  "imagen": "https://m.media-amazon.com/images/I/41i+gaat3TL._SL500_.jpg",
+  "fecha_verificado": "2026-10-15",
+  "notas": "ASIN de URL real amazon.com/dp/B000XG34G8 con titulo y detalles coincidentes en pagina cacheada de Amazon (Style 1403); apertura directa bloqueada (403). Precio Amazon no visible; $27.95 es MSRP del fabricante. Revalidar precio en navegador antes de publicar.",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 27.95
+   }
+  ]
+ },
+ {
+  "asin": "B005EPRFF4",
+  "nombre": "TETON Sports Celsius XXL, 0 Degree Sleeping Bag",
+  "categoria": "Descanso",
+  "precio": "$104.85",
+  "precio_antes": null,
+  "imagen": "https://m.media-amazon.com/images/I/41GrqDSXhGL._SL500_.jpg",
+  "fecha_verificado": "2026-10-15",
+  "notas": "ASIN de URL real amazon.com/dp/B005EPRFF4 con titulo coincidente en pagina cacheada de Amazon (UPC 855020001076); apertura directa bloqueada (403). Precio $104.85 de pagina cacheada de Amazon.com para este ASIN. Revalidar en navegador antes de publicar.",
+  "historial": [
+   {
+    "fecha": "2026-10-15",
+    "precio": 104.85
+   }
+  ]
+ },
+ {
+  "asin": "B09JXQDZG5",
+  "categoria": "Mochilas",
+  "fecha_verificado": "2026-10-16",
+  "imagen": "https://www.osprey.com/gb/media/catalog/product/a/t/atmosag65_s22_side_mythicalgreen.jpg",
+  "nombre": "Osprey Atmos AG 65L Mochila de mochilero",
+  "notas": "Verificado por Paco el 2026-10-16: US$306.99 (-17% del precio recomendado US$370.00), botón 'Agregar al carrito' disponible (solo 2 en stock). Llega a Perú con US$179.74 de cargos de envío e importación (no es envío gratis). Enviado por Amazon, vendido por STC Distributors.",
+  "precio": "$306.99",
+  "precio_antes": "$370.00",
+  "historial": [
+   {
+    "fecha": "2026-10-16",
+    "precio": 306.99
+   }
+  ]
+ },
+ {
+  "asin": "B005I6R0WC",
+  "categoria": "Descanso",
+  "fecha_verificado": "2026-10-16",
+  "imagen": "https://www.gearhungry.com/wp-content/uploads/2022/01/therm-a-rest-z-lite-sol-sleeping-pad.jpg",
+  "nombre": "Therm-a-Rest Z Lite Sol Colchoneta para dormir (Regular)",
+  "notas": "Verificado por Paco el 2026-10-16: US$57.37, 'Agregar al carrito' disponible. Sin cargos de importación y envío GRATIS a Perú (entrega 27 oct). Enviado por Amazon, vendido por Amazon Export Sales LLC. 'Opción Amazon', 300+ comprados el mes pasado.",
+  "precio": "$57.37",
+  "precio_antes": null,
+  "envio_peru_gratis": true,
+  "historial": [
+   {
+    "fecha": "2026-10-16",
+    "precio": 57.37
+   }
+  ]
+ },
+ {
+  "asin": "B0DZBY6ZKM",
+  "categoria": "Electrónica",
+  "fecha_verificado": "2026-10-17",
+  "imagen": "https://m.media-amazon.com/images/I/81z-Puqy+mL.jpg",
+  "nombre": "BLAVOR Solar Power Bank 20000mAh 20W Fast Charging (4 cables integrados + linterna LED)",
+  "notas": "ASIN de URL real amazon.com/dp con título coincidente en listado de Amazon ('BLAVOR Solar Charger Power Bank 20000mAh Built in 4 Cables, 20W Fast Charging External Battery Pack with USB C, Camping Light, Flashlight, Wireless Charging Battery Bank for Apple Watches'). Precio $39.99 de listado Amazon. Apertura directa bloqueada (403). Revalidar precio en navegador antes de publicar.",
+  "precio": "$39.99",
+  "precio_antes": null,
+  "historial": [
+   {
+    "fecha": "2026-10-17",
+    "precio": 39.99
+   }
+  ]
+ },
+ {
+  "asin": "B01GZCUDE4",
+  "categoria": "Bolsas secas",
+  "fecha_verificado": "2026-10-17",
+  "imagen": "https://earthpak.com/cdn/shop/files/Main_Image_1_-_5L_9dc9a078-517a-41e2-97ba-ad80e4780d14.jpg?v=1717609504&width=1080",
+  "nombre": "Earth Pak Original Dry Bag 5L (500D PVC, incluye funda impermeable para celular)",
+  "notas": "ASIN de URL real amazon.com/dp con título coincidente ('Earth Pak Waterproof Dry Bag - Roll Top Waterproof Backpack Sack Keeps Gear Dry for Kayak with Waterproof Phone Case'). Precio desde ~$16.99 según vancharlioutdoor.com (guía 2026). Apertura directa bloqueada (403). Revalidar precio en navegador antes de publicar.",
+  "precio": "$16.99",
+  "precio_antes": null,
+  "historial": [
+   {
+    "fecha": "2026-10-17",
+    "precio": 16.99
+   }
+  ]
+ },
+ {
+  "asin": "B07C7K5PHQ",
+  "categoria": "Accesorios",
+  "fecha_verificado": "2026-10-17",
+  "imagen": "https://d3gqasl9vmjfd8.cloudfront.net/9df8a627-00db-480f-91cd-a8614ffe91a3.jpg",
+  "nombre": "Swiss Safe Kit de Primeros Auxilios 2 en 1 (348 piezas + mini kit)",
+  "notas": "Verificado por Paco el 2026-10-17: US$24.99 Prime, 4.7 estrellas (5,266 reseñas). Reemplaza a la Victorinox Huntsman (sin ofertas en Amazon). No envía a Perú; disponible para compradores internacionales.",
+  "precio": "$24.99",
+  "precio_antes": null,
+  "envio_peru_gratis": false,
+  "historial": [
+   {
+    "fecha": "2026-10-17",
+    "precio": 24.99
+   }
+  ]
+ }
 ]
