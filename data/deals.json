@@ -51,15 +51,19 @@
   {
     "asin": "B09NQK2581",
     "categoria": "Iluminación",
-    "fecha_verificado": "2026-10-15",
+    "fecha_verificado": "2026-10-17",
     "imagen": "https://m.media-amazon.com/images/I/611DF8SNggL._AC_SL1200_.jpg",
     "nombre": "BLACK DIAMOND Spot 400 LED Headlamp",
-    "notas": "ASIN verificado abriendo https://www.amazon.com/dp/B09NQK2581 (titulo 'BLACK DIAMOND Spot 400 LED Headlamp', variante Graphite). Precio $46.39 visible en la caja de compra.",
+    "notas": "Reverificado el 2026-10-17 por apertura directa de https://www.amazon.com/dp/B09NQK2581: precio $46.39 en la caja de compra, 'In Stock' con botón 'Agregar al carrito'. Variante Graphite. Vendido por Black Diamond Equipment, enviado por Amazon.",
     "precio": "$46.39",
     "precio_antes": null,
     "historial": [
       {
         "fecha": "2026-10-15",
+        "precio": 46.39
+      },
+      {
+        "fecha": "2026-10-17",
         "precio": 46.39
       }
     ]
@@ -222,6 +226,38 @@
       {
         "fecha": "2026-10-16",
         "precio": 57.37
+      }
+    ]
+  },
+  {
+    "asin": "B0DZBY6ZKM",
+    "categoria": "Electrónica",
+    "fecha_verificado": "2026-10-17",
+    "imagen": "https://m.media-amazon.com/images/I/81z-Puqy+mL.jpg",
+    "nombre": "BLAVOR Solar Power Bank 20000mAh 20W Fast Charging (4 cables integrados + linterna LED)",
+    "notas": "ASIN de URL real amazon.com/dp con título coincidente en listado de Amazon ('BLAVOR Solar Charger Power Bank 20000mAh Built in 4 Cables, 20W Fast Charging External Battery Pack with USB C, Camping Light, Flashlight, Wireless Charging Battery Bank for Apple Watches'). Precio $39.99 de listado Amazon. Apertura directa bloqueada (403). Revalidar precio en navegador antes de publicar.",
+    "precio": "$39.99",
+    "precio_antes": null,
+    "historial": [
+      {
+        "fecha": "2026-10-17",
+        "precio": 39.99
+      }
+    ]
+  },
+  {
+    "asin": "B01GZCUDE4",
+    "categoria": "Bolsas secas",
+    "fecha_verificado": "2026-10-17",
+    "imagen": "https://earthpak.com/cdn/shop/files/Main_Image_1_-_5L_9dc9a078-517a-41e2-97ba-ad80e4780d14.jpg?v=1717609504&width=1080",
+    "nombre": "Earth Pak Original Dry Bag 5L (500D PVC, incluye funda impermeable para celular)",
+    "notas": "ASIN de URL real amazon.com/dp con título coincidente ('Earth Pak Waterproof Dry Bag - Roll Top Waterproof Backpack Sack Keeps Gear Dry for Kayak with Waterproof Phone Case'). Precio desde ~$16.99 según vancharlioutdoor.com (guía 2026). Apertura directa bloqueada (403). Revalidar precio en navegador antes de publicar.",
+    "precio": "$16.99",
+    "precio_antes": null,
+    "historial": [
+      {
+        "fecha": "2026-10-17",
+        "precio": 16.99
       }
     ]
   }
