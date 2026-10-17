@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tiny-fudge-6a8fc8.netlify.app/sitemap.xml
