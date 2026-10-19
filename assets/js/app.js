@@ -150,6 +150,19 @@
       var current = "Todas";
       chips(deals, function (c) { current = c; render(deals, c); });
       render(deals, current);
+      // Fecha de última revisión: la fecha_verificado más reciente del catálogo.
+      // Así el badge del hero y la nota del pie nunca quedan congelados en una
+      // fecha vieja aunque la revisión diaria solo toque data/deals.json.
+      var latest = deals.map(function (d) { return d.fecha_verificado || ""; })
+        .filter(Boolean).sort().pop() || "";
+      if (latest) {
+        var dp = latest.split("-");
+        var f = dp.length === 3 ? dp[2] + "/" + dp[1] + "/" + dp[0] : latest;
+        var hv = document.getElementById("heroVerified");
+        if (hv) hv.textContent = "✓ Revisado el " + f;
+        var fv = document.getElementById("footVerified");
+        if (fv) fv.textContent = "Última revisión " + f + ". Los precios pueden variar en Amazon al momento de tu compra.";
+      }
     })
     .catch(function (e) {
       document.getElementById("grid").innerHTML =
