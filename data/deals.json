@@ -301,5 +301,21 @@
         "precio": 74.95
       }
     ]
+  },
+  {
+    "asin": "B0CSD2SF4R",
+    "categoria": "Multiherramientas",
+    "fecha_verificado": "2026-10-19",
+    "imagen": "https://cdn11.bigcommerce.com/s-q9ptxvukwz/products/38689/images/153127/leatherman-wave-plus-multi-tool-waveplus__20098.1601511997.386.513.jpg?c=2",
+    "nombre": "Leatherman Wave+ Multiherramienta 18 en 1, acero inoxidable",
+    "notas": "ASIN CORREGIDO 2026-10-19: B0CSD2SF4R (el anterior B07F825NDV no existe en Amazon). Link verificado por Paco desde su celular. Oferta: $96.00, 26% bajo el MSRP oficial $129.95 (leatherman.com). La multiherramienta más vendida de Leatherman.",
+    "precio": "$96.00",
+    "precio_antes": "$129.95",
+    "historial": [
+      {
+        "fecha": "2026-10-19",
+        "precio": 96.0
+      }
+    ]
   }
 ]
