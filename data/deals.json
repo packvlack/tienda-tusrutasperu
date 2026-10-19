@@ -285,5 +285,21 @@
         "precio": 109.95
       }
     ]
+  },
+  {
+    "asin": "B09KNXGCML",
+    "categoria": "Hamacas",
+    "fecha_verificado": "2026-10-19",
+    "imagen": "https://eaglesnestoutfittersinc.com/cdn/shop/products/eno-aqua-sapphire-amber-doublenest-test-hammock-33151172116629.jpg?v=1774448698&width=1920",
+    "nombre": "ENO DoubleNest Hammock (hamaca doble, 400 lb / 19 oz, nylon 70D)",
+    "notas": "ASIN CORREGIDO 2026-10-19: B09KNXGCML (el anterior B004PQQY9C no existe en Amazon). Evidencia: link real amazon.com/dp/B09KNXGCML con título 'ENO DoubleNest Hammock' y precio $74.95 (rvshare.com). Precio $74.95 = precio oficial ENO. Pendiente confirmación final en celular de Paco.",
+    "precio": "$74.95",
+    "precio_antes": null,
+    "historial": [
+      {
+        "fecha": "2026-10-19",
+        "precio": 74.95
+      }
+    ]
   }
 ]
