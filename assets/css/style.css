@@ -289,4 +289,14 @@ h1, h2, h3, .display {
 @media (max-width: 640px) {
   .site-nav { display: none; }
   .filters { top: 68px; }
+  /* Filtros: tira horizontal deslizable (una sola fila) en vez de grilla vertical */
+  .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: .35rem;
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; white-space: nowrap; }
 }
